@@ -79,6 +79,10 @@ class MainActivity : AppCompatActivity() {
                     tempResult *= numbers[currentNumber]
                     currentNumber++
                     currentOperator++
+                } else if (usedOperator == "/") {
+                    tempResult /= numbers[currentNumber]
+                    currentNumber++
+                    currentOperator++
                 }
             }
 

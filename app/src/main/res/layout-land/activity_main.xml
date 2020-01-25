@@ -92,12 +92,13 @@
                     android:text="@string/number_nine" />
 
                 <Button
-                    android:id="@+id/multiplyButton"
+                    android:id="@+id/clearButton"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:onClick="operatorInput"
-                    android:text="@string/multiply" />
+                    android:onClick="clearInput"
+                    android:text="@string/clear" />
+
 
             </LinearLayout>
 
@@ -256,28 +257,36 @@
                     android:text="@string/xy" />
 
                 <Button
-                    android:id="@+id/zeroButton"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_weight="8"
-                    android:onClick="numberInput"
-                    android:text="@string/number_zero" />
-
-                <Button
-                    android:id="@+id/clearButton"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:onClick="clearInput"
-                    android:text="@string/clear" />
-
-                <Button
                     android:id="@+id/resultButton"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:onClick="resultButton"
                     android:text="@string/result" />
+
+                <Button
+                    android:id="@+id/zeroButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:onClick="numberInput"
+                    android:text="@string/number_zero" />
+
+                <Button
+                    android:id="@+id/divButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:onClick="operatorInput"
+                    android:text="/" />
+
+                <Button
+                    android:id="@+id/multiplyButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:onClick="operatorInput"
+                    android:text="@string/multiply" />
 
             </LinearLayout>
 
