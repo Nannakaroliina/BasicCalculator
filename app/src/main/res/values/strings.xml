@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">BasicCalculator</string>
+    <string name="number_one">1</string>
+    <string name="number_two">2</string>
+    <string name="number_three">3</string>
+    <string name="number_four">4</string>
+    <string name="number_five">5</string>
+    <string name="number_six">6</string>
+    <string name="number_seven">7</string>
+    <string name="number_eight">8</string>
+    <string name="number_nine">9</string>
+    <string name="number_zero">0</string>
+    <string name="addition">+</string>
+    <string name="subtraction">-</string>
+    <string name="multiply">*</string>
+    <string name="result">=</string>
+    <string name="clear">C</string>
+    <string name="calculate">Calculate</string>
+
+    <string name="cos">COS</string>
+    <string name="tan">TAN</string>
+    <string name="sin">SIN</string>
+    <string name="rad">RAD</string>
+    <string name="exp">EXP</string>
+    <string name="mc">MC</string>
+    <string name="log">LOG</string>
+    <string name="bracket_right">)</string>
+    <string name="ms">MS</string>
+    <string name="xy">XY</string>
+    <string name="m">M+</string>
+    <string name="bracket_left">(</string>
+    <string name="resultHint">0</string>
+</resources>
